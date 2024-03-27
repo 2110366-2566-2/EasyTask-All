@@ -4,7 +4,7 @@ A repo alias for EasyTask project (SE2 CU)
 <br>
 
 ## Repository Locations
-Since the repo is created outside this organization. We will forward you to our repository location.
+Since the repo is created outside this organization, we will forward you to our repository location.
 
 <div align=center>
 
