@@ -35,31 +35,31 @@ Since the repo is created outside this organization, we will forward you to our 
 
 ## Deployment Directory Structure
 ```bash
-**(root)**
-├── **backend-prod**
-├── **frontend-prod**
-└── **deploy**
+(root)
+├── backend-prod/
+├── frontend-prod/
+└── deploy/
 
-**(root)/deploy/**
+(root)/deploy/
 ├── compose.backend.yaml
 ├── compose.frontend.yaml
 ├── compose.mongodb.yaml
 ├── compose.netdata.yaml
 ├── compose.wstest.yaml
 ├── compose.yaml
-├── **mongodb**
+├── mongodb/
 │   ├── db0_mongod.conf
 │   └── mongod.conf
-├── **nginx**
-│   ├── **conf.d**
-│   │   └── **http**
+├── nginx/
+│   ├── conf.d/
+│   │   └── http/
 │   │       └── easytask.vt.in.th.conf
 │   └── nginx.conf
-├── **secrets**
-└── **websocket-test**
+├── secrets/
+└── websocket-test/
 
-**(root)/deploy/secrets/**
-├── app-env
+(root)/deploy/secrets/
+├── app-env/
 │   ├── .env.backend.dev
 │   ├── .env.backend.prod
 │   ├── .env.frontend.dev
@@ -68,6 +68,6 @@ Since the repo is created outside this organization, we will forward you to our 
 │   └── rs256.key.pub
 ├── mongodb.dump
 ├── mongo.env
-├── **nginx-cert**
+├── nginx-cert/
 └── replica.key
 ```
