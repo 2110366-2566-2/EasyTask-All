@@ -34,6 +34,7 @@ Since the repo is created outside this organization, we will forward you to our 
 4. Configure reverse proxies, firewalls, and docker network (if needed)
 
 ## Deployment Directory Structure
+```bash
 **(root)**
 ├── **backend-prod**
 ├── **frontend-prod**
@@ -69,3 +70,4 @@ Since the repo is created outside this organization, we will forward you to our 
 ├── mongo.env
 ├── **nginx-cert**
 └── replica.key
+```
