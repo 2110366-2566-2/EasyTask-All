@@ -48,7 +48,6 @@ Since the repo is created outside this organization, we will forward you to our 
 ├── compose.wstest.yaml
 ├── compose.yaml
 ├── mongodb/
-│   ├── db0_mongod.conf
 │   └── mongod.conf
 ├── nginx/
 │   ├── conf.d/
